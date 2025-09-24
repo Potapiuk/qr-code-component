@@ -3,17 +3,18 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    --main-bg-color: #d6e2f0;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #d6e2f0;
+    background-color: var(--main-bg-color);
     max-height: 100vh;
 }
 
 .qr-block {
     background-color: #fff;
-    max-width: 320px;
+    max-width: 20em;
     border-radius: 20px;
     padding: 15px 15px 40px;
     text-align: center;
