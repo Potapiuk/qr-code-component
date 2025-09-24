@@ -23,6 +23,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 2px 10px 35px #b5b5b5;
 }
 
 img {
